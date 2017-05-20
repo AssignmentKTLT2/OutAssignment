@@ -42,7 +42,7 @@ void HamTinhNang::xemThongBao_ND(string tenUser) {
 //*******************************************************************************
 //Description:	Xem thông tin người dùng
 //Input:		Tên user
-//Output:		Trả về thông tin của người dùng trong file tenUser.txt
+//Output:		Trả về thông tin của người dùng trong file tenUser.txt. 8 dòng đầu
 /////////////////////////////////////////////////////////////////////////////////
 //Lần sửa đổi cuối
 //Người sửa: 
@@ -77,7 +77,7 @@ void HamTinhNang::doiMatKhau_ND(string tenUser, string matKhauCu, string matKhau
 //Thời gian:
 //Nhóm hàm liên quan tới người dùng
 //*******************************************************************************
-void HamTinhNang::chinhSuaThongTin_ND(string tenUser) {
+void HamTinhNang::chinhSuaThongTin_ND(string tenUser, string ngaySinh, string CMND, string diaChi) {
 
 }
 //*******************************************************************************
@@ -192,7 +192,7 @@ void HamTinhNang::themVaoSachDaCo_S(string maSoISBN, int soLuongThemVao) {
 //Lý do:
 //Tính năng thay thế:
 //Thời gian:
-void HamTinhNang::themVaoSachChuaCo_S(string maSoISBN, string tenSach, string tenTacGia, string thoiGianCapNhatGanNhat, int namThem){
+void HamTinhNang::themVaoSachChuaCo_S(string maSoISBN, string tenSach, string tenTacGia, string thoiGianCapNhatGanNhat){
 }
 //*******************************************************************************
 //Description:	Tìm kiếm sách

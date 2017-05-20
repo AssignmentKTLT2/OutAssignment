@@ -12,7 +12,7 @@ public:
 	void xemThongTin_ND(string tenUser);
 	void doiMatKhau_ND(string tenUser,string matKhauCu, string matKhauMoi);
 	//Nhóm hàm liên quan tới người dùng
-	void chinhSuaThongTin_ND(string tenUser);
+	void chinhSuaThongTin_ND(string tenUser, string ngaySinh,string CMND, string diaChi);
 	void xoaKhoiHeThong_ND(string tenUser);
 	void themTaiKhoan_ND(string tenUser);
 	void moVaKhoaTaiKhoan_ND(string tenUser);
@@ -22,7 +22,7 @@ public:
 	void chinhSuaThongTin_S(string maSoISBN);
 	void xoaKhoiHeThong_S(string maSoISBN);
 	void themVaoSachDaCo_S(string maSoISBN, int soLuongThemVao);
-	void themVaoSachChuaCo_S(string maSoISBN,string tenSach, string tenTacGia,string thoiGianCapNhatGanNhat, int namThem);
+	void themVaoSachChuaCo_S(string maSoISBN,string tenSach, string tenTacGia,string thoiGianCapNhatGanNhat);
 	void timKiemSach_S(string tenNguoiDungNhap);
 	void ghiNhanTraSach_S(string tenUser, string maSoISBN);
 	void phatViQuaHanMuon_S(string tenUser);

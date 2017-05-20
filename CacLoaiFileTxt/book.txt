@@ -1,0 +1,1 @@
+ISBN(char[20]) TenSach(char[100]) tacGia(char[50]) NgayCapNhat(char[10] theo dinh dang dd/tt/nnnn) tongSoLuong(char[4]) soLuongCon(char[4])
