@@ -1,1 +1,0 @@
-TenTk (char[50])   MatK (char[50]) 	TinhTrang( co bi vo hieu hoa ko)(char[1])
