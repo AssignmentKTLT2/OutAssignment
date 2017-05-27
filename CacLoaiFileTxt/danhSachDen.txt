@@ -1,3 +1,0 @@
-//Chua nhung nguoi muon qua thoi gian khong tra
-//Va nhung nguoi lam mat sach
-ISBN(char[20]) tenSach(char[100]) tenTacGia(char[50]) tenUser(char[50]) loaiViPham(char[1] //la 0 neu la qua thoi gian, la 1 neu la mat)
